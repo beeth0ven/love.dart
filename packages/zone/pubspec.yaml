@@ -1,0 +1,8 @@
+name: zone
+version: 0.1.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  fake_async: ^1.2.0
