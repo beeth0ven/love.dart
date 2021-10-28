@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:fake_async/fake_async.dart';
 import 'package:love/love.dart';
 
 abstract class TestEvent<Event> {}
@@ -89,3 +90,10 @@ System<String, String> createTestSystem({
 
 Future<T> delayed<T>(int milliseconds, [FutureOr<T> Function()? computation]) 
   => Future.delayed(Duration(milliseconds: milliseconds), computation);
+
+void fake_time(void Function() callback, { DateTime? initialTime }) {
+  fakeAsync<void>((async) {
+    callback();
+    async.elapse(const Duration(days: 1));
+  }, initialTime: initialTime);
+}
