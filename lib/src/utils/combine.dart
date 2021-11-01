@@ -1,4 +1,5 @@
-import '../types/types.dart' show Effect, Interceptor, Reduce;
+import '../types/reduce.dart' show Reduce;
+import '../types/types.dart' show Effect, Interceptor;
 
 Reduce<State, Event>? combineReduce<State, Event>(
   Reduce<State, Event>? reduce,

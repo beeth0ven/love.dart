@@ -1,9 +1,7 @@
+import 'reduce.dart';
 
 /// Describe the equality of two item
 typedef Equals<T> = bool Function(T it1, T it2);
-
-/// Describe how state update when event come
-typedef Reduce<State, Event> = State Function(State state, Event event);
 
 /// Describe how to intercept event
 typedef Interceptor<Event> = Dispatch<Event> Function(Dispatch<Event> dispatch);

@@ -7,6 +7,7 @@
 * refactor - extract `combine` functions [#116](https://github.com/LoveCommunity/love.dart/issues/116)
 * refactor - extract `defaultEquals` function [#117](https://github.com/LoveCommunity/love.dart/issues/117)
 * break - refactor - remove `DispatchFunc` type [#118](https://github.com/LoveCommunity/love.dart/issues/118)
+* refactor - extract `Reduce` type [#119](https://github.com/LoveCommunity/love.dart/issues/119)
 
 ## [0.1.0-rc.2] - 2020-10-28
 
