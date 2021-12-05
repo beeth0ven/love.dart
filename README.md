@@ -1,5 +1,9 @@
 # Love
 
+[![Build Status](https://github.com/beeth0ven/love.dart/workflows/Tests/badge.svg)](https://github.com/beeth0ven/love.dart/actions/workflows/tests.yml)
+[![Coverage Status](https://img.shields.io/codecov/c/github/beeth0ven/love.dart/branch/test/coverage.svg)](https://codecov.io/gh/beeth0ven/love.dart)
+[![Pub](https://img.shields.io/pub/v/love)](https://pub.dev/packages/love)
+
 A state management library that is declarative, predictable and elegant.
 
 ![][love_overview_diagram]
