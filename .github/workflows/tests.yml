@@ -24,7 +24,7 @@ jobs:
           --port=1212
           --out=coverage/coverage.json
           --wait-paused
-          --resumes-isolates
+          --resume-isolates
       - name: Generate LCOV
         run: pub global run coverage:format_coverage
           --lcov
